@@ -16,7 +16,7 @@ example: raidexport 2.txt 3.txt
 
 
 Note:
-The raidimport and raidexport commands were created using source raid5_soft_commands.sh - The shell script contains two functions (function raidimport() - invokes ./raid5_soft $1 $2 1 where 1 signifies import, function raidexport() - invokes ./raid5_soft $1 $2 2 where 2 signifies export).
+The raidimport and raidexport commands were created using the command "source raid5_soft_commands.sh" - The shell script contains two functions (function raidimport() - invokes ./raid5_soft $1 $2 1 where 1 signifies import, function raidexport() - invokes ./raid5_soft $1 $2 2 where 2 signifies export).
 
 
 Main RAID 5 APIs Used:
