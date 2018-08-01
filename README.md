@@ -7,6 +7,7 @@ To compile the code use the following:
   2. make -f makefile.mk
   
 Commands to run in order in Linux terminal:
+
 1.source raid5_soft_commands.sh - The raidimport and raidexport commands were created using the command "source raid5_soft_commands.sh"
 
 2. raidimport srcfile raidfile - This application imports the content of a regular Linux file srcfile (which will contain data inputted by the user. For this instance, 1.txt will contain data inputed by you (eg: 123456 in 1.txt)) into your RAID-5 file system, using raidfile as the destination name. It will call the standard Linux file system APIs to read the content of srcfile, and call your RAID-5 APIs to write the content to your soft RAID-5.
