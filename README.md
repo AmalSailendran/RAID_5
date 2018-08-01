@@ -15,11 +15,6 @@ example: raidexport 1.txt 2.txt
 3. raidexport raidfile, dstfile - This application exports a RAID-5 file raidfile to a regular Linux file dstfile. It reads the content of raidfile using raid5_read and writes it into dstfile using the standard Linux file system write API.
 example: raidexport 2.txt 3.txt
 
-
-Note:
- - The shell script contains two functions (function raidimport() - invokes ./raid5_soft $1 $2 1 where 1 signifies import, function raidexport() - invokes ./raid5_soft $1 $2 2 where 2 signifies export).
-
-
 Main RAID 5 APIs Used:
 
 1. int raid5_create(char* filename).
