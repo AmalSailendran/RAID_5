@@ -1,5 +1,7 @@
 The project simulates RAID 5 - redundant array of independent disks configuration. 
 
+
+
 To compile the code use the following:
   1. make -f makefile.mk clean
   2. make -f makefile.mk
